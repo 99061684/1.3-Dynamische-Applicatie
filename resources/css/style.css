@@ -16,7 +16,7 @@ a:active {
     color: red;
 }
 
-#container, footer, header {
+.body_container, footer, header {
     width: 960px;
     margin: 0 auto;
     background-color: white;
@@ -57,7 +57,7 @@ h1 {
     height: 150px;
 }
 
-.item .right{
+.item .right, .container{
     display: inline-block;
 }
 
@@ -73,6 +73,7 @@ h1 {
 .detail {
     position: relative;
 }
+
 header .backbutton {
     position: absolute;
     top: 15px;
@@ -105,4 +106,14 @@ header .backbutton {
 footer {
     margin-top: 10px;
     text-align: center;
+}
+
+.item .detailButton{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+    
+.container{
+   position: relative;
 }
